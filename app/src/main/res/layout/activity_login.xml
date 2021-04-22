@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bricks7">
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"><![CDATA[
+
+            />
+
+
+
+            />
+
+
+
+            ]]>
+
+            <EditText
+                android:id="@+id/emailLogin"
+                android:layout_width="308dp"
+                android:layout_height="70dp"
+                android:layout_margin="50dp"
+                android:hint="Enter your email please"
+                android:inputType="textEmailAddress"
+                android:textColor="#F6F3F3"
+                android:textColorHint="#DF1A0C"
+                android:textColorLink="#E6306F"
+                android:textSize="20dp"
+                android:textStyle="bold" /><![CDATA[
+
+            />
+
+
+
+
+            ]]>
+
+            <EditText
+                android:id="@+id/passwordLogin"
+                android:layout_width="308dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:textSize="20dp"
+                android:hint="Enter your password"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:inputType="textPassword"
+                android:textColor="#F6F3F3"
+                android:textColorHint="#DF1A0C"
+                android:textColorLink="#30E639"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/singinButton"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#E6306F"
+                android:text="SIGN IN"
+                android:textColor="@color/common_google_signin_btn_text_dark"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

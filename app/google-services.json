@@ -1,0 +1,42 @@
+
+
+
+{
+  "project_info": {
+    "project_number": "20944469678",
+    "project_id": "colorsmash-4ac04",
+    "storage_bucket": "colorsmash-4ac04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20944469678:android:60856cc3b06c0e0886773f",
+        "android_client_info": {
+          "package_name": "com.example.colorsmash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20944469678-8vlvnfdq37iqcmlbljbg2q17ruoo1jtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJFu0XbbVjd7Q6dH7OIUeFisVLFDOS55I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20944469678-8vlvnfdq37iqcmlbljbg2q17ruoo1jtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

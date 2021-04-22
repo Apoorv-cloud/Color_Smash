@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyDiagnosisActivity"
+    android:background="@drawable/bricks2"
+    >
+
+
+    <TextView
+        android:id="@+id/textViewNameMyDiagnosis"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/ButtonResetMyColorblindness"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Reset My Color blindness"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="#4CAF50"/>
+
+            <TextView
+                android:id="@+id/textViewFilteredColors"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10sp"/>
+
+            <TextView
+                android:id="@+id/textViewTestResultsMyDiagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/textViewFullTestMyDiagnosis"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:text=" Full Test"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="#00BCD4"/>
+
+
+</LinearLayout>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DiagnosisActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Do you see the number?"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="question 1:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/number_16" />
+
+            <EditText
+                android:id="@+id/editTextQuestion1Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Enter the number you see?"
+                android:inputType="number"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHint="#E6306F"
+                android:textColorLink="#E6306F"
+                android:textStyle="bold" />
+            />
+
+            <Button
+                android:id="@+id/buttonQuestion1Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue"
+                android:text="Can not see anything"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="question 2:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/number_7" />
+
+            <EditText
+                android:id="@+id/editTextQuestion2Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Enter the number you see?"
+                android:inputType="number"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHint="#E6306F"
+                android:textColorLink="#E6306F"
+                android:textStyle="bold" />
+            />
+
+            <Button
+                android:id="@+id/buttonQuestion2Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue"
+                android:text="Can not see anything"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="question 3:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/number_12" />
+
+            <EditText
+                android:id="@+id/editTextQuestion3Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Enter the number you see?"
+                android:inputType="number"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHint="#E6306F"
+                android:textColorLink="#E6306F"
+                android:textStyle="bold" />
+            />
+
+            <Button
+                android:id="@+id/buttonQuestion3Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue"
+                android:text="Can not see anything"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="question 4:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/number_8" />
+
+            <EditText
+                android:id="@+id/editTextQuestion4Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Enter the number you see?"
+                android:inputType="number"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHint="#E6306F"
+                android:textColorLink="#E6306F"
+                android:textStyle="bold" />
+            />
+
+            <Button
+                android:id="@+id/buttonQuestion4Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue"
+                android:text="Can not see anything"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="question 5:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/number_13" />
+
+            <EditText
+                android:id="@+id/editTextQuestion5Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Enter the number you see?"
+                android:inputType="number"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHint="#E6306F"
+                android:textColorLink="#E6306F"
+                android:textStyle="bold" />
+            />
+
+            <Button
+                android:id="@+id/buttonQuestion5Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue"
+                android:text="Can not see anything"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="question 6:"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/number_9" />
+
+            <EditText
+                android:id="@+id/editTextQuestion6Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:hint="Enter the number you see?"
+                android:inputType="number"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHint="#E6306F"
+                android:textColorLink="#E6306F"
+                android:textStyle="bold" />
+            />
+
+            <Button
+                android:id="@+id/buttonQuestion6Diagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_blue"
+                android:text="Can not see anything"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonSubmitDiagnosis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_light"
+                android:text="Submit"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
